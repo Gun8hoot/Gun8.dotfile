@@ -3,8 +3,20 @@ My personal dotfile
 ### Gnome
 ---
 ##### TODO : 
-xxx
+- xxx
 <br>
-##### Preview : 
+##### **Preview :**
 
 <img src="./gnome/preview-gnome.png">
+
+<br><br>
+
+### GRUB
+---
+- 
+##### **Preview :** 
+
+<img src="./grub/EVA=ANGEL/background.png">
+
+**Not the actual preview**
+<br><br>
