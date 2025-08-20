@@ -1,47 +1,19 @@
 # Gun8.dotfile
-My personal dotfile collection
+- __My dotfile collection for Gnome and Hyprland__
 
-## ROG x EVANGELION
-\> Gnome
----
-##### TODO : 
-- xxx
+
+## 🖥️ • Preview DE
+> <a href="./rice_theme/ROGXEVANGELION/ROGxEvangelion.md"><h4>🤖 • ROG x Evangelion</h4></a>
+> <a href="./rice_theme/ROGXEVANGELION/ROGxEvangelion.md"><img src="./rice_theme/ROGXEVANGELION/gnome/preview-gnome.png"></a> <br>
+
+> <a href="./rice_theme/Vagabond/Hyprland/Vagabond.md"><h4>🗡️ • Vagabond</h4></a>
+> <a href="./rice_theme/Vagabond/Hyprland/Vagabond.md"><img src="./rice_theme/Vagabond/Hyprland/preview_vagabond.png"></a><br>
+
 <br>
-##### **Preview :**
 
-<img src="./rice_theme/ROGXEVANGELION/gnome/preview-gnome.png">
-
-<br><br>
-
-### HYPRLAND
----
-##### **Preview :**
-<img src="./rice_theme/ROGXEVANGELION/hyprland/preview-hyprland.png">
-
-**NOT FINISH**
-<br><br>
-
-
-### GRUB
----
-- Original grub theme : **[Particle GRUB Theme](https://www.gnome-look.org/p/2269763)**
-#### STEP : 
-1. Copy the content in `/boot/grub/themes`
-```sh
-sudo cp -R ./grub/EVA=ANGEL /boot/grub/themes
-```
-2. Edit the `/etc/default/grub`
-```sh
-GRUB_THEME="/boot/themes/EVA=ANGEL/theme.txt"
-GRUB_GFXMODE=1920x1080 # Optional, change the resolution of the boot menu
-```
-3. Update grub
-```sh
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
-##### **Preview :** 
-
-<img src="./grub/EVA=ANGEL/preview.png">
+## 🚀 • GRUB
+> <a href="./grub/EVA/EVA.md"><h4>👼 • EVA01</h4></a>
+> <a href="./grub/EVA/EVA.md"><img src="./grub/EVA/preview.png"></a>
 
 
 <br><br>

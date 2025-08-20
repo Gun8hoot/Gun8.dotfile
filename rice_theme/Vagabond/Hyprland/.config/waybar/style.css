@@ -1,0 +1,109 @@
+@import "./color.css";
+
+* {
+  padding: 2px 5px 0px 5px;
+  font-family: "GohuFont 14 Nerd Font Mono";
+  border-style: solid;
+  font-size: 16px;
+  background-color: transparent;
+  color: @white;
+}
+
+
+                                  /* WORKSPACES */
+#workspaces {
+  background-color: @back-color;
+  padding: 2px 5px 2px 5px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: @border-color;
+}
+
+#workspaces button {
+  padding: 0px 2px 2px 2px;
+  margin: 2px;
+  transition: none;
+  background: black;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: @border-color;
+}
+
+#workspaces button.active {
+  border-bottom-color: @white;
+}
+#workspaces button:hover {
+  border-color: @white;
+}
+
+
+                                  /* NETWORK (IP ADDR) */
+#network
+{
+  margin-left: 15px;
+  background-color: @back-color;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+
+}
+
+
+                                  /* CAVA */
+#custom-cava
+{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: @back-color;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+}
+
+
+                                  /* DISK */
+#disk
+{
+  margin-right: 15px;
+  background-color: @back-color;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+}
+
+
+                                  /* CPU USAGE */
+#cpu
+{
+  margin-right: 15px;
+  background-color: @back-color;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+}
+
+
+                                  /* CLOCK  */
+#clock
+{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: @back-color;
+  margin-right: 15px;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+}
+
+
+                                  /* PULSEAUDIO */
+#pulseaudio
+{
+  padding: 0px 15px 0px 15px;
+  background-color: @back-color;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: @border-color;
+}

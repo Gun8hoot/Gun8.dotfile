@@ -20,8 +20,8 @@ echo "
 bars = 18
 
 [input]
-method = pulse
-source = auto
+method = pulse  ; Adapt to your own sound server.
+source = auto   ; Go look the cava configuration file for more detail
 
 [output]
 method = raw

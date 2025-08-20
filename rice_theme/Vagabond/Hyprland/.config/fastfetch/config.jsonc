@@ -22,35 +22,40 @@
         "break",
         {
             "type": "os",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "kernel",
-            "key": " ",
+            "key": " "
+        },
+        {
+            "type": "de",
+            "key": "󰖲 "
+
         },
         {
             "type": "shell",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "terminal",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "uptime",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "cpu",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "gpu",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "memory",
-            "key": " ",
+            "key": " "
         },
         {
             "type": "localip",

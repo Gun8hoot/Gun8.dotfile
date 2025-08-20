@@ -1,10 +1,13 @@
 {
+  // -- BASE  --
   "layer": "top",
   "position": "top",
   "modules-left": ["hyprland/workspaces", "network"],
   "modules-center": ["custom/cava"],
-  "modules-right": ["clock", "pulseaudio"],
+  "modules-right": ["disk", "cpu", "clock", "pulseaudio"],
 
+
+  // -- MODULES --
   "hyprland/workspaces": {
   	"format": "{name}",
     "on-scroll-up": "hyprctl dispatch workspace +1",
@@ -15,23 +18,41 @@
       "3": [],
       "4": [],
       "5": [],
-      "6": []
+      "6": [],
+      "7": [],
+      "8": []
     }
   },
+
   "network": {
-    "interface": "wg0-mullvad",
+    "interface": "lo",
     "format": "{ipaddr}"
   },
-  "clock": {
-        "format": "{:%H:%M:%OS}",
-        "interval": 1
-  },
-  "pulseaudio": {
-      "format": "{volume}%"
-  },
+
   "custom/cava": {
     "format": "{}",
     "intervale": 0.5,
     "exec": "~/.config/waybar/script/cava.sh"
+  },
+
+  "disk": {
+      "interval": 60,
+      "format": "{specific_used:0.2f} GB/{specific_total:0.2f} GB",
+      "unit": "GB"
+  },
+
+  "cpu": {
+      "format": "CPU : {}%",
+      "interval": 1
+  },
+
+  "clock": {
+        "format": "{:%H:%M:%OS}",
+        "interval": 1
+  },
+  
+  "pulseaudio": {
+      "format": "{volume}%",
+      "on-click": "pavucontrol"
   }
 }

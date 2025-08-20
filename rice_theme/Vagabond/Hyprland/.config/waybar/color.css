@@ -1,0 +1,10 @@
+/* COLORS */
+
+@define-color   black               #3A3D43;
+@define-color   white               #B9BCBA;
+@define-color   red                 #3A3D43;
+
+/* SPECIFIC COLORS VARS */ 
+
+@define-color   back-color          shade(#484848, 0.40);
+@define-color   border-color        #484848;

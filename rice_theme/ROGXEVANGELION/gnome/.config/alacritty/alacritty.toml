@@ -1,0 +1,50 @@
+# COLORS
+[colors.primary]
+foreground = "#e0def4"
+dim_foreground = "#908caa"
+bright_foreground = "#e0def4"
+
+[colors.normal]
+black = "#44474D"
+red = "#842c2a"
+green = "#73cf63"
+yellow = "#a96c22"
+blue = "#53426e"
+magenta = "#755d97"
+cyan = "#6d6e9e"
+white = "#B9BCBA"
+
+[colors.bright]
+black = "#44474D"
+red = "#842c2a"
+green = "#73cf63"
+yellow = "#a96c22"
+blue = "#53426e"
+magenta = "#755d97"
+cyan = "#6d6e9e"
+white = "#FDFFB9"
+
+# FONT
+[font.normal]
+family = "FiraCode Nerd Font"
+
+# WINDOW
+[window]
+opacity = 0.93
+title = "⏾⋆.˚"
+#decorations = "None"
+
+[window.padding]
+x = 7
+y = 5
+
+[terminal.shell]
+program = "tmux"
+
+# OTHER
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
+
+[mouse]
+hide_when_typing = true
