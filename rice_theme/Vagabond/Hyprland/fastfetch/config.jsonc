@@ -1,0 +1,69 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "color": {"1":"white"},
+        "source": "~/.config/fastfetch/katana.ascii",
+        "padding": {
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " ",
+        "color": "30"
+    },
+    "modules":
+    [
+	"break",
+	"break",
+	    {
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+        },
+        {
+            "type": "shell",
+            "key": " ",
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+        },
+        {
+            "type": "cpu",
+            "key": " ",
+        },
+        {
+            "type": "gpu",
+            "key": " ",
+        },
+        {
+            "type": "memory",
+            "key": " ",
+        },
+        {
+            "type": "localip",
+            "key": " "
+
+        },
+        {
+            "type": "media",
+            "key": "󰝚 "
+        },
+        "break",
+        "colors",
+        "break",
+        "break"
+    ]
+}

@@ -1,24 +1,26 @@
 # Gun8.dotfile
-My personal dotfile
-### Gnome
+My personal dotfile collection
+
+## ROG x EVANGELION
+\> Gnome
 ---
 ##### TODO : 
 - xxx
 <br>
 ##### **Preview :**
 
-<img src="./ROGXEVANGELION/gnome/preview-gnome.png">
+<img src="./rice_theme/ROGXEVANGELION/gnome/preview-gnome.png">
 
 <br><br>
 
 ### HYPRLAND
 ---
 ##### **Preview :**
-<img src="./ROGXEVANGELION/hyprland/preview-hyprland.png">
+<img src="./rice_theme/ROGXEVANGELION/hyprland/preview-hyprland.png">
 
 **NOT FINISH**
-
 <br><br>
+
 
 ### GRUB
 ---
